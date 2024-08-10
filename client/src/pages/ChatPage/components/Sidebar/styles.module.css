@@ -1,0 +1,25 @@
+.wrapper {
+    height: 100%;
+    flex: 0.2;
+    padding: 20px;
+    border-right: 1px solid #bfbdbd;
+}
+
+.title {
+    margin: 30px 0 20px 0;
+    font-size: 25px;
+    color: #607eaa;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    cursor: pointer;
+    color: #607eaa;
+    font-size: 14px;
+}
